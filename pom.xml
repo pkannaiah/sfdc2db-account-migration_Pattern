@@ -27,6 +27,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<sharedLibraries>
+                        <sharedLibrary>
+                            <groupId>mysql</groupId>
+                            <artifactId>mysql-connector-java</artifactId>
+                        </sharedLibrary>
+                    </sharedLibraries>
+                    <classifier>mule-application</classifier>
+                    <attachMuleSources>true</attachMuleSources>
+                    
 					<cloudHubDeployment>
 						<muleVersion>${mule.version}</muleVersion>
 						<username>${mule.username}</username>
