@@ -12,6 +12,13 @@
 	<version>2.1.1</version>
 	<packaging>mule-application</packaging>
 	<name>sfdc2db-account-migration_Pattern</name>
+	 <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+		<app.runtime>4.3.0</app.runtime>
+		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
+	</properties>
 	<build>
 		<plugins>
 			<plugin>
